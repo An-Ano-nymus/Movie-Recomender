@@ -18,13 +18,13 @@ movie-recommender/
 1. Make sure you have Python 3 and pip installed.
 2. Install dependencies:
    ```bash
-   pip install flask pandas
+   pip install pandas numpy scikit-learn streamlit
    ```
 3. Run the app:
    ```bash
-   python app.py
+   streamlit run app.py
    ```
-4. Open your browser and go to `http://127.0.0.1:5000/`.
+4. Open your browser and go to `http://127.0.0.1:8501/`.
 
 ## Data
 - `movies.csv`: Contains movie information (e.g., movieId, title, genres).
